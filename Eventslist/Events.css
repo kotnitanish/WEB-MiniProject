@@ -3,14 +3,14 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f9;
+    background: #f4f2d9 ;
 }
 
 /* Header */
 header {
     text-align: center;
-    background: linear-gradient(45deg, #6a11cb, #2575fc);
-    color: white;
+    background: linear-gradient(#F98866,#FFF2D7);
+    color: black;
     padding: 25px;
     font-size: 24px;
     font-weight: bold;
