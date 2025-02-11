@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-bold text-indigo-600">EventPlanner</a>
+
+            <!-- Navigation Menu -->
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-600 hover:text-indigo-600">Home</a>
+                <a href="#" class="text-gray-600 hover:text-indigo-600">About</a>
+                <a href="#" class="text-gray-600 hover:text-indigo-600">Services</a>
+                <a href="#" class="text-gray-600 hover:text-indigo-600">Gallery</a>
+                <a href="#" class="text-gray-600 hover:text-indigo-600">Contact</a>
+            </nav>
+
+            <!-- Contact Button -->
+            <a href="#" class="hidden md:block bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">
+                Get in Touch
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-toggle" class="md:hidden text-gray-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-4">
+            <a href="#" class="block text-center py-2 text-gray-600 hover:text-indigo-600">Home</a>
+            <a href="#" class="block text-center py-2 text-gray-600 hover:text-indigo-600">About</a>
+            <a href="#" class="block text-center py-2 text-gray-600 hover:text-indigo-600">Services</a>
+            <a href="#" class="block text-center py-2 text-gray-600 hover:text-indigo-600">Gallery</a>
+            <a href="#" class="block text-center py-2 text-gray-600 hover:text-indigo-600">Contact</a>
+        </div>
+    </header>
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuToggle.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+    </script>
+</body>
+</html>
