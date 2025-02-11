@@ -1,0 +1,83 @@
+/* Event Detail Box Styling */
+.event-box {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.event-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* Event Title */
+.event-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Event Info */
+.event-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+.event-info span {
+    font-weight: bold;
+    color: #222;
+}
+
+/* Event Description */
+.event-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.event-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn.register {
+    background: linear-gradient(45deg, #28a745, #218838);
+    color: white;
+}
+
+.btn.register:hover {
+    background: linear-gradient(45deg, #218838, #1e7e34);
+}
+
+.btn.details {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+}
+
+.btn.details:hover {
+    background: linear-gradient(45deg, #0056b3, #004080);
+}
