@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Registration</title>
-    <link rel="stylesheet" href="EventO.css
+    <link rel="stylesheet" href="EventO.css"/>
 </head>
 <body>
 
+    <!-- Header with Home Navigation -->
     <header>
         <h1>Organize Your Event</h1>
+        <nav>
+            <a href="..\Landing\index.html" class="btn">Home</a>  <!-- Home Button -->
+        </nav>
     </header>
 
     <div class="registration-container">
@@ -64,6 +68,7 @@
                     <option value="Seminar">Seminar</option>
                     <option value="Cultural">Cultural</option>
                     <option value="Technical">Technical</option>
+                    <option value="Entertainment">Entertainment</option>
                 </select>
             </div>
 
@@ -72,28 +77,10 @@
                 <input type="file" id="poster" name="poster" accept="image/*">
             </div>
 
-            <button type="submit" class="btn">Register Event</button>
-            <div class="event-box">
-                <h2 class="event-title">Tech Workshop 2025</h2>
+            <a href="..\EventOrganiser\thanks.html" class="btn">Register Now</a>
                 
-                <div class="event-info">
-                    <p><span>Date:</span> March 15, 2025</p>
-                    <p><span>Time:</span> 10:00 AM - 3:00 PM</p>
-                    <p><span>Venue:</span> Innovation Hall, XYZ University</p>
-                    <p><span>Organizer:</span> Coding Club</p>
-                </div>
-                
-                <p class="event-description">
-                    Join us for an interactive workshop on AI and Machine Learning. Hands-on experience, expert talks, and networking opportunities await!
-                </p>
-            
-                <div class="event-buttons">
-                    <button class="btn register">Register Now</button>
-                    <button class="btn details">View Details</button>
-                </div>
-            </div>
-            
         </form>
     </div>
+
 </body>
 </html>

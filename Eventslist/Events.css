@@ -1,22 +1,69 @@
 /* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Atma, serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f9;
+    background: #C0C0C0 ;
 }
 
 /* Header */
+/* Header */
 header {
-    text-align: center;
-    background: linear-gradient(45deg, #6a11cb, #2575fc);
-    color: white;
-    padding: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a1a40; /* Navy Blue Background */
+    color: #ffd700; /* Gold Font */
+    padding: 15px 15px 15px 0;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    height: 5vh;
+}
+
+/* Home Button */
+.header {
+    display: flex;
+    justify-content: space-between;  /* Home button on right, title centered */
+    align-items: center;
+    background: #1A1A40;
+    color: #FFD700;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title - Center align */
+h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Home Button */
+.btn {
+    text-decoration: none;
+    color: #FFD700;
+    font-size: 18px;
+    font-weight: bold;
+    background: none;
+    border: 2px solid;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #FFD700;
+    color: #1A1A40;
 }
 
 /* Events Container - Centering the List */
@@ -30,7 +77,7 @@ header {
 
 /* Event Card - Full Width Rectangular Style */
 .event-card {
-    background: white;
+    background: #C0C0C0;
     width: 80%;
     max-width: 900px; /* Ensures it doesn't get too wide */
     border-radius: 12px;
@@ -65,7 +112,7 @@ header {
 .event-info h2 {
     font-size: 22px;
     margin: 5px 0;
-    color: #333;
+    color: #0F0E0E;
 }
 
 .event-info p {
@@ -82,8 +129,8 @@ header {
 .btn {
     display: inline-block;
     padding: 10px 15px;
-    background: linear-gradient(45deg, #ff416c, #ff4b2b);
-    color: white;
+    background: #1a1a40;
+    color:#ffd700;
     text-decoration: none;
     font-size: 14px;
     border-radius: 8px;
@@ -93,7 +140,7 @@ header {
 }
 
 .btn:hover {
-    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    background: #ffd700;
     transform: scale(1.05);
 }
 
