@@ -111,8 +111,8 @@ form
 .btn {
     width: 100%;
     padding: 14px;
-    background-color: #0073e6;
-    color: white;
+    background-color: #1a1a40;
+    color: #ffd700;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -121,7 +121,8 @@ form
 }
 
 .btn:hover {
-    background-color: #005bb5;
+    background-color: #FFD700;
+    color: black;
 }
 
 /* Event Box (Consistent Width & Centering) */

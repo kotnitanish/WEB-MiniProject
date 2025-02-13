@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    background: #C0C0C0;
+    background:#ffff;
     gap: 50px;
     display: flex;
     flex-direction: column;
