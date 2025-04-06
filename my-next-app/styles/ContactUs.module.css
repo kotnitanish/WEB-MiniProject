@@ -1,0 +1,93 @@
+.btn {
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    font-weight: bold;
+    background: none;
+    border: 2px solid gold;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    margin-right: 50px; 
+}
+.container h2{
+    color: black;
+}
+.btn:hover {
+    background: gold;
+    color: navy;
+}
+
+.footer {
+    background: white;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.box_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Individual Boxes */
+.box {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0f0e0e;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.box a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px 0;
+    transition: color 0.3s ease-in-out;
+}
+
+.box a:hover {
+    color: #ffcc00;
+}
+
+/* Social Media Icons */
+.box a i {
+    color: #ffcc00;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+/* Credit Section */
+.credit {
+    margin-top: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+.credit span {
+    font-weight: bold;
+    color: #1a1a40;
+}

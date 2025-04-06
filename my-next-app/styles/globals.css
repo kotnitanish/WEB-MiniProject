@@ -1,0 +1,22 @@
+
+
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
+
+
+body{
+
+  margin:0;
+
+  padding:0;
+
+  overflow:hidden;
+
+  line-height: normal;
+}
