@@ -9,6 +9,7 @@ import Gallery from './Components/Gallery';
 
 
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
